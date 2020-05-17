@@ -26,6 +26,7 @@ class App extends React.Component{
         );   
         return(
             <div className="App">
+            <h1>Testing</h1>
                 <SearchBox  placeholder="Search..." handleChange={e=> this.setState({searchField:e.target.value})} />
 
                 
